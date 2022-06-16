@@ -1,0 +1,429 @@
+.container-fluid {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 64px;
+}
+
+@media screen and (min-width:0px) and (max-width:767.9px) {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 64px;
+    }
+    .navigation {
+        display: none;
+    }    
+    
+    .banner-caption {
+        padding-left: 4px;
+        padding: 0px 0px;
+    }
+
+    .banner-caption p{
+        margin-bottom: 24px;
+    }
+    .banner-caption h2 {
+        font-weight: 900;
+        font-size: 2em;
+        color: rgb(67, 62, 62);
+        margin-top: 32px;
+    }
+
+    .info-1-img img,
+.info-2-img img,
+.info-3-img img {
+    max-width: auto;
+    height: auto;
+    padding-bottom: 16px;
+}
+    .banner-btn {
+        background-color: rgb(42, 39, 39);
+        color: white;
+        opacity: 0.8;
+        width: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    } 
+
+    .copyright{
+        margin-left: 24px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .text-orientation,.text-campus,.text-guest-lecture{
+        margin-left: 32px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .banner img {
+        max-width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-right: 24px;
+        margin-left: 24px;
+    }
+    .nav-header {
+        font-weight: 700;
+        color: black;
+        font-size: 1.25em;
+        margin-top: 16px;
+        height: 32px;
+    }
+    
+    .nav-header span {
+        font-weight: 500;
+        color: grey;
+    }
+    
+    .nav-list {
+        margin-top: 16px;
+    }
+    
+    .nav-list ul li {
+        display: inline-flex;
+        margin-left: 16px;
+        color: black;
+    }
+    .banner img {
+        width: 100%;
+    
+    }
+    
+    .banner-container {
+        background-color: rgba(175, 185, 185, 0.348);
+        height: auto;
+    }
+    
+    .banner-caption {
+        margin-left: 24px;
+    }
+    
+    .banner-caption h2 {
+        font-weight: 900;
+        font-size: 3em;
+        color: rgb(67, 62, 62);
+    }
+    
+    .banner-btn {
+        background-color: rgb(42, 39, 39);
+        color: white;
+        opacity: 0.8;
+        width: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .info-container {
+        height: auto;
+    }
+    
+    .info-1,
+    .info-2 {
+        margin-top: 16px;
+        margin-left: 24px;
+        padding-top: 16px;
+    }
+    
+    .info-3 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        background-color: lightgrey;
+        margin-left: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    
+    }
+    
+    .info-1-img img,
+    .info-2-img img,
+    .info-3-img img {
+        max-width: 100%;
+        height: auto;
+        padding-left: 16px;
+    }
+    
+    .info-main-text-head {
+        padding-left: 24px;
+        font-weight: 700;
+    }
+    
+    .info-main-text-padding-left {
+        padding-left: 24px;
+    }
+    
+    .info-main-text-padding-bottom {
+        padding-bottom: 32px;
+    }
+    
+    .info-text-style {
+        font-weight: 600;
+    }
+    
+    .learning-container {
+        height: auto;
+        background-color: rgb(235, 235, 235);
+    }
+    
+    .learning-header {
+        padding-top: 32px;
+        font-weight: 700;
+        color: rgb(73, 73, 73);
+    }
+    
+    .card {
+        width: auto;
+        min-height: 32rem;
+        margin-top: 32px;
+    }
+    
+    .card-text {
+        color: grey;
+    }
+    
+    .course-software {
+        margin-left: 57px;
+    }
+    
+    .course-computer-art {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    
+    .course-design {
+        margin-right: 57px;
+    }
+    
+    .course-data {
+        margin-left: 57px;
+    }
+    
+    .course-business {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    
+    .course-marketing {
+        margin-right: 57px;
+        padding-bottom: 32px;
+    }
+    
+    .exhibit-header {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        color: grey;
+        font-weight: 700;
+    }
+    
+    .video video {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+        margin-left: 9px;
+        padding-right: 24px;
+    }
+    
+    .exhibit-container {
+        height: auto;
+    }
+    
+    .exhibit-1 {
+        margin-bottom: 16px;
+        background-color: lightgrey;
+        padding-top: 16px;
+    }
+    
+    .exhibit-2 {
+        margin-top: 16px;
+    }
+    
+    .exhibit-img-1 img {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 16px;
+    }
+    
+    .exhibit-img-2 img {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 16px;
+    }
+    footer {
+        margin-bottom: 40px;
+    }
+}
+.mobile{
+    height: 100%;
+}
+
+.nav-header {
+    font-weight: 700;
+    color: black;
+    font-size: 1.25em;
+    margin-top: 16px;
+    height: 32px;
+}
+
+.nav-header span {
+    font-weight: 500;
+    color: grey;
+}
+
+.nav-list {
+    margin-top: 16px;
+}
+
+.nav-list ul li {
+    display: inline-flex;
+    margin-left: 16px;
+    color: black;
+}
+.banner img {
+    width: 100%;
+
+}
+
+.banner-container {
+    background-color: rgba(175, 185, 185, 0.348);
+    height: auto;
+}
+
+.banner-caption {
+    margin: auto;
+    padding-left: 4px;
+    margin-bottom: 32px;
+}
+
+.banner-btn {
+    background-color: rgb(42, 39, 39);
+    color: white;
+    opacity: 0.8;
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.info-container {
+    height: auto;
+}
+
+.info-1,
+.info-2 {
+    margin-top: 16px;
+}
+
+.info-main-text-head {
+    padding-left: 24px;
+    font-weight: 700;
+}
+
+.info-main-text-padding-left {
+    padding-left: 24px;
+}
+
+.info-main-text-padding-bottom {
+    padding-bottom: 32px;
+}
+
+.info-text-style {
+    font-weight: 600;
+}
+
+.learning-container {
+    height: auto;
+    background-color: rgb(235, 235, 235);
+}
+
+.learning-header {
+    padding-top: 32px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+
+.card {
+    width: auto;
+    min-height: 32rem;
+    margin-top: 32px;
+}
+
+.card-text {
+    color: grey;
+}
+
+.course-software {
+    margin-left: 57px;
+}
+
+.course-computer-art {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.course-design {
+    margin-right: 57px;
+}
+
+.course-data {
+    margin-left: 57px;
+}
+
+.course-business {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.course-marketing {
+    margin-right: 57px;
+    padding-bottom: 32px;
+}
+
+.exhibit-header {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: grey;
+    font-weight: 700;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.exhibit-container {
+    height: auto;
+}
+
+.exhibit-1 {
+    margin-bottom: 16px;
+    background-color: lightgrey;
+    padding-top: 16px;
+}
+
+.exhibit-2 {
+    margin-top: 16px;
+}
+
+.exhibit-img-1 img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 16px;
+}
+
+.exhibit-img-2 img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 16px;
+}
+
+footer {
+    margin-bottom: 40px;
+}
