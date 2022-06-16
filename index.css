@@ -39,6 +39,12 @@
         padding-bottom: 16px;
     }
 
+    .info-2-img img,
+    .info-3-img img {
+        margin-top: 64px;
+        ;
+    }
+
     .banner-btn {
         background-color: rgb(42, 39, 39);
         color: white;
@@ -57,11 +63,11 @@
     }
 
     .text-orientation,
-    .text-campus{
+    .text-campus {
         margin-left: 32px;
     }
 
-    .text-guest-lecture{
+    .text-guest-lecture {
         margin-left: 32px;
         margin-bottom: 32px;
     }
@@ -71,9 +77,46 @@
     .course-design,
     .course-data,
     .course-business,
-    .course-marketing{
+    .course-marketing {
         display: none;
     }
+
+    .info-1-img-mobile {
+        max-width: 90vw;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .info-1-desktop-img {
+        display: none;
+    }
+
+    .card-img-top {
+        width: 100vw;
+        height: auto;
+    }
+
+    .btn {
+        text-align: left;
+        font-size: large;
+        padding-left: 16px;
+        margin-top: 8px;
+    }
+
+    .last-btn {
+        margin-bottom: 32px;
+    }
+
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video p {
+        display: none;
+    }
+
+
 }
 
 
@@ -283,13 +326,52 @@
         margin-bottom: 40px;
     }
 
-    .mobile-course{
+    .mobile-course {
         display: none;
+    }
+
+    .course-software {
+        margin-left: 57px;
+    }
+
+    .course-computer-art {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .course-design {
+        margin-right: 57px;
+    }
+
+    .course-data {
+        margin-left: 57px;
+    }
+
+    .course-business {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .course-marketing {
+        margin-right: 57px;
+        padding-bottom: 32px;
+    }
+
+    .video video {
+        width: 100%;
+        height: auto;
+        margin-left: 24px;
+
+    }
+
+    .video p {
+        margin-left: 24px;
     }
 }
 
 .mobile {
     height: 100%;
+    width: auto;
 }
 
 .nav-header {
@@ -387,45 +469,11 @@
     color: grey;
 }
 
-.course-software {
-    margin-left: 57px;
-}
-
-.course-computer-art {
-    margin-left: 32px;
-    margin-right: 32px;
-}
-
-.course-design {
-    margin-right: 57px;
-}
-
-.course-data {
-    margin-left: 57px;
-}
-
-.course-business {
-    margin-left: 32px;
-    margin-right: 32px;
-}
-
-.course-marketing {
-    margin-right: 57px;
-    padding-bottom: 32px;
-}
-
 .exhibit-header {
     margin-top: 32px;
     margin-bottom: 32px;
     color: grey;
     font-weight: 700;
-}
-
-.video video {
-    width: 100%;
-    height: auto;
-    padding: 0px 0px;
-    margin: 0px 0px;
 }
 
 .exhibit-container {

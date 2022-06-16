@@ -48,7 +48,7 @@
     <nav class="navigation-mobile d-md-none">
         <div class="container-fluid ">
 
-            <div class="row justify-content-around mobile">
+            <div class="row justify-content-around mobile my-auto">
                 <a href="#" class="my-auto">
                     <img src="./assets/images/ic-logo.svg" alt="ic-logo" />
                 </a>
@@ -98,8 +98,8 @@
             <div class="col-12 col-md-5 text-center">
                 <div class="row info-1">
                     <div class="col-12 info-1-img p-0 col-md-4">
-                        <img src="./assets/images/information-orientation.jpg" alt="information-orientation" />
-
+                        <img class="info-1-desktop-img" src="./assets/images/information-orientation.jpg" alt="information-orientation" />
+                        <img class="d-md-none" src="./assets/images/information-orientation-mobile.jpg" alt="information-orientation-mobile" />
                     </div>
                     <div class="col-12 my-auto text-left text-orientation col-md-8">
                         <h4>Orientation date</h4>
@@ -109,7 +109,8 @@
                 </div>
                 <div class="row info-2">
                     <div class="col-12 info-2-img p-0 col-md-4">
-                        <img src="./assets/images/information-campus.jpg" alt="information-campus" />
+                        <img class="info-1-desktop-img" src="./assets/images/information-campus.jpg" alt="information-campus" />
+                        <img class="d-md-none" src="./assets/images/information-campus-mobile.jpg" alt="information-campus" />
                     </div>
                     <div class="col-8 text-campus text-left">
                         <h4>Our campus</h4>
@@ -119,7 +120,8 @@
                 </div>
                 <div class="row info-3">
                     <div class="col-12 info-3-img p-0 col-md-4">
-                        <img src="./assets/images/information-guest-lecture.jpg" alt="information-guest-lecture" />
+                        <img  class="info-1-desktop-img" src="./assets/images/information-guest-lecture.jpg" alt="information-guest-lecture" />
+                        <img class="d-md-none" src="./assets/images/information-guest-lecture-mobile.jpg"alt=information-guest-lecture" />
                     </div>
                     <div class="col-8 text-guest-lecture text-left">
                         <h4>Our guest lecture</h4>
@@ -138,108 +140,108 @@
         </div>
 
 
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-software"
-                    aria-expanded="false" aria-controls="course-software">
-                    Software engineering
-                </button>
-                <div class="collapse" id="course-software">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-software.jpg" alt="course-software">
-                        <div class="card-body">
-                            <h5 class="card-title">Software engineering</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">Web Development, Mobile Development, iOT, APIs</p>
-                        </div>
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-software"
+                aria-expanded="false" aria-controls="course-software">
+                Software engineering
+            </button>
+            <div class="collapse" id="course-software">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-software.jpg" alt="course-software">
+                    <div class="card-body">
+                        <h5 class="card-title">Software engineering</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">Web Development, Mobile Development, iOT, APIs</p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-computer-art"
-                    aria-expanded="false" aria-controls="course-computer-art">
-                    Computer art
-                </button>
-                <div class="collapse" id="course-computer-art">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-computer-art.jpg"  alt="course-software">
-                        <div class="card-body">
-                            <h5 class="card-title">Computer art</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer
-                                Animation</p>
-                        </div>
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary" type="button" data-toggle="collapse"
+                data-target="#course-computer-art" aria-expanded="false" aria-controls="course-computer-art">
+                Computer art
+            </button>
+            <div class="collapse" id="course-computer-art">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-computer-art.jpg" alt="course-software">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer art</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer
+                            Animation</p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-design"
-                    aria-expanded="false" aria-controls="course-computer-art">
-                    Design
-                </button>
-                <div class="collapse" id="course-design">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-design.jpg"  alt="course-design">
-                        <div class="card-body">
-                            <h5 class="card-title">Design</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">User Experience Design, User Research, visual Design</p>
-                        </div>
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-design"
+                aria-expanded="false" aria-controls="course-computer-art">
+                Design
+            </button>
+            <div class="collapse" id="course-design">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-design.jpg" alt="course-design">
+                    <div class="card-body">
+                        <h5 class="card-title">Design</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">User Experience Design, User Research, visual Design</p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-data"
-                    aria-expanded="false" aria-controls="course-computer-art">
-                    Data
-                </button>
-                <div class="collapse" id="course-data">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-data.jpg" alt="course-data">
-                        <div class="card-body">
-                            <h5 class="card-title">Data</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">Data Science, Big Data, SQL, Data Visualization</p>
-                        </div>
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-data"
+                aria-expanded="false" aria-controls="course-computer-art">
+                Data
+            </button>
+            <div class="collapse" id="course-data">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-data.jpg" alt="course-data">
+                    <div class="card-body">
+                        <h5 class="card-title">Data</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">Data Science, Big Data, SQL, Data Visualization</p>
                     </div>
                 </div>
             </div>
-            
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-business"
-                    aria-expanded="false" aria-controls="course-business">
-                    Business
-                </button>
-                <div class="collapse" id="course-business">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-business.jpg" alt="course-business">
-                        <div class="card-body">
-                            <h5 class="card-title">Business</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">Producct Development, Business Development, Startup</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
 
-            <div class="row mobile-course">
-                <button class="col-12 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-marketing"
-                    aria-expanded="false" aria-controls="course-marketing">
-                    Marketing
-                </button>
-                <div class="collapse" id="course-marketing">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/course-marketing.jpg" alt="course-marketing">
-                        <div class="card-body">
-                            <h5 class="card-title">Marketing</h5>
-                            <p class="card-text">COURSES</p>
-                            <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
-                        </div>
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary" type="button" data-toggle="collapse" data-target="#course-business"
+                aria-expanded="false" aria-controls="course-business">
+                Business
+            </button>
+            <div class="collapse" id="course-business">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-business.jpg" alt="course-business">
+                    <div class="card-body">
+                        <h5 class="card-title">Business</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">Producct Development, Business Development, Startup</p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row mobile-course justify-content-center">
+            <button class="col-10 btn btn-secondary last-btn" type="button" data-toggle="collapse"
+                data-target="#course-marketing" aria-expanded="false" aria-controls="course-marketing">
+                Marketing
+            </button>
+            <div class="collapse" id="course-marketing">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/course-marketing.jpg" alt="course-marketing">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing</h5>
+                        <p class="card-text">COURSES</p>
+                        <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <div class="row">
@@ -327,6 +329,11 @@
                 <video controls>
                     <source src="./assets/videos/thesis.mp4">
                 </video>
+                
+                <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+                    commodo lectus, nec consequat neque.
+                    Sed non accumsan urna. Phasellus sed conseqquat ex. Etiam eget magna laoreet, efficitur dolor
+                    consequat, tristique ligula."</p>
             </div>
 
             <div class="d-none col-md-5 d-md-block">
